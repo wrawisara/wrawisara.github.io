@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>wave</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,669&display=swap"
+        rel="stylesheet">
     <link
         href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Dancing+Script:wght@600&family=Lobster&display=swap"
         rel="stylesheet">
@@ -12,14 +14,52 @@
 </head>
 
 <body bgcolor="#e7d3ee">
-    <div class=head><b>
-            <h1>Profile</h1>
-        </b></div>
+    <table>
+        <tr align=" center">
+            <th> <a >
+                    <div class=box>
+                        <p class=font>Date <br>29/4/2020<br>
+                    </div>
+                    </p>
+                </a></th>
+            <th> <a >
+                    <div class=box>
+                        <p class=font>Date <br>2/5/2020
+                            <br>
+                    </div>
+                    </p>
+                </a></th>
+            <th> <a >
+                    <div class=box>
+                        <p class=font>Date <br>9/5/2020
+                            <br>
+                    </div>
+                    </p>
+                </a></th>
+            <th> <a >
+                    <div class=box>
+                        <p class=font>Date <br>16/5/2020<br>
+                    </div>
+                    </p>
+                </a></th>
+            <th> <a >
+                    <div class=box>
+                        <p class=font>Date <br>24/5/2020<br>
+                    </div>
+                    </p>
+                </a></th>
+        </tr>
+    </table>
+
+
+    <div class=head>
+        <h1>Profile</h1>
+    </div>
     <table class="infortablee">
         <tr>
             <td>
                 <div class="centered">
-                    <img class="picProflie" src="S__199385149.jpg" width="277" height="369.5">
+                    <img class="picProflie" src="S__199385149.jpg" width="287" height="379.5">
             </td>
             <td>
                 <table class="infotable">
@@ -28,7 +68,7 @@
                         <td class="sec">Rawisara</td>
                     </tr>
                     <tr>
-                        <th class="topic">Sirname</th>
+                        <th class="topic">Surname</th>
                         <td class="sec">Mawilerd</td>
                     </tr>
                     <tr>
@@ -42,6 +82,14 @@
                     <tr>
                         <th class="topic">Age</th>
                         <td class="sec">18</td>
+                    </tr>
+                    <tr>
+                        <th class="topic">Programming Skill</th>
+                        <td class="sec">fair, slow learning and have to repeat many times</td>
+                    </tr>
+                    <tr>
+                        <th class="topic">Graphics Skill</th>
+                        <td class="sec">good - excellent</td>
                     </tr>
                     <tr>
                         <th class="topic">Favorite food</th>
@@ -60,25 +108,21 @@
                         <td class="sec">EXO, Three man down, Mean</td>
                     </tr>
                     <tr>
+                        <th class="topic">My main in EXO</th>
+                        <td class="sec">Baekhyun</td>
+                    </tr>
+                    <tr>
                         <th class="topic">Instagram</th>
                         <td class="sec">wave.rws</td>
                     </tr>
                 </table>
             </td>
-        </tr>
-
-        <tr>
             <td>
                 <div class="centered2">
-                    <img class="picProflie" src="S__1089573.jpg" width="277 height="277>
-            </td>
-            <td>
-                <div class="centered2">
-                    <img class="picProflie" src="S__1089576.jpg" width="277 height="277>
-            </td>
-            <td>
-                <div class="centered2">
-                    <img class="picProflie" src="exo.jpg" width="277 height="277>
+                    <img class="picProflie1" src="S__1089573.jpg" width="200" height=" 200">
+                    <img class="picProflie1" src="S__1089576.jpg" width="200" height=" 200">
+                    <img class="picProflie1" src="exo.jpg" width="200" height=" 200">
+                    <img class="picProflie1" src="S__200147018.jpg" width="200" height=" 200">
             </td>
         </tr>
 
@@ -90,24 +134,51 @@
 
 
     <style>
+        .box {
+            margin-left: 89px;
+            margin-right: -60px;
+            margin-top: 60px;
+            margin-bottom: -120px;
+            color: rgb(213, 223, 255);
+            background-color: rgb(107, 96, 179);
+            font-family: 'Dancing Script', cursive;
+            width: 200px;
+            height: 110px;
+            font-size: 20px;
+            
+        }
+
+        .box :hover {
+            background-color: sandybrown;
+        }
+
+        .font {
+            
+            line-height: 30px;
+
+        }
+
         .topic {
             color: darkslateblue;
-            font-size: 40px;
+            font-size: 30px;
             text-align: left;
             font-family: 'Dancing Script', cursive;
             padding-left: 100px;
         }
 
         .sec {
-            font-size: 30px;
+            font-size: 20px;
             font-family: 'Dancing Script', cursive;
             text-align: left;
             padding-left: 50px;
         }
 
         .head {
+
             font-size: 60px;
-            font-family: 'Dancing Script', cursive;
+            margin-left: 90px;
+            margin-bottom: -60px;
+            font-family: 'Playfair Display', serif;
             background-image: url("bg2.jpg");
             color: #512b58;
             font: outline;
@@ -116,14 +187,18 @@
 
         .infortablee {
             background-color: #FADEE1;
-            text-align: center;
+
+
         }
 
         .infotable {
             font-size: 20px;
             margin: 60px;
-            
+        }
 
+        .picProflie {
+            margin-left: 50px;
+            margin-right: -100px;
         }
     </style>
 
